@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: bisque;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .logo {
+            padding: 10px;
+        }
+
+        ul {
+            display: flex;
+            padding: 15px;
+        }
+
+        li {
+            list-style-type: none;
+            margin-right: 15px;
+        }
+
+        img {
+            object-fit: contain;
+        }
+        .content{
+            display: flex;
+        }
+        .textarea{
+            padding: 10px;
+            color: blue;
+            font-size: 100%;
+        }
+        @media screen and (max-width: 900px){
+            img{
+                width: 100%;
+            }
+            .content{
+                display: flex;
+                flex-wrap: wrap;  
+            }
+                   
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo">Logo</h1>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="content">
+        <img src="./img/61RnLPV+akL.jpg" alt="sample_img" width="50%">
+        <div class="textarea">
+        <h1>Tamana</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quia culpa aperiam nam sapiente ullam aliquam cupiditate alias temporibus, inventore veniam natus ad numquam ut repellat! Perferendis culpa totam ut. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam aut repudiandae mollitia nam, ipsa iure recusandae porro officiis eum obcaecati saepe adipisci quasi corporis eveniet.</p>
+    </div>
+    </div>
+</body>
+
+</html>
